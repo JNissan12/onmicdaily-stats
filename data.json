@@ -1,6 +1,6 @@
 {
  "goal_usd": 1500,
- "updated": "01/11/2026 14:26",
+ "updated": "01/11/2026 14:39",
  "channels": [
   {
    "date": "2026-11-01",
@@ -24,7 +24,7 @@
    "posts": 1,
    "followers": 0,
    "views": 453,
-   "likes": 8
+   "likes": 9
   }
  ],
  "markets": [
@@ -58,7 +58,7 @@
    "campaign": "World's First Podcast",
    "status": "Pendiente",
    "views": 453,
-   "likes": 8,
+   "likes": 9,
    "earned_usd": 0
   },
   {
