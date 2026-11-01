@@ -1,6 +1,6 @@
 {
  "goal_usd": 1500,
- "updated": "01/11/2026 14:15",
+ "updated": "01/11/2026 14:16",
  "channels": [
   {
    "date": "2026-11-01",
@@ -23,7 +23,7 @@
    "channel": "TikTok",
    "posts": 1,
    "followers": 0,
-   "views": 0,
+   "views": 2,
    "likes": 0
   }
  ],
@@ -34,7 +34,7 @@
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 1,
+   "submitted": 3,
    "approved": 0,
    "rejected": 0
   },
@@ -44,7 +44,7 @@
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 0,
+   "submitted": 1,
    "approved": 0,
    "rejected": 0
   }
@@ -89,8 +89,8 @@
    "title": "Malcolm Todd on why he's careful who hears a song before it's finished.",
    "posted": "2026-11-01",
    "campaign": "Rolling Stone",
-   "status": "Enviado",
-   "views": 0,
+   "status": "Pendiente",
+   "views": 2,
    "likes": 0,
    "earned_usd": null
   }
