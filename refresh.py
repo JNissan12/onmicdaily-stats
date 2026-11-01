@@ -1,4 +1,4 @@
-"""Reads YouTube and Instagram and updates data.json. GitHub Actions runs this every 15 minutes.
+"""Reads YouTube and Instagram and updates data.json. GitHub Actions runs this when the page's button asks.
 
 Only reads. Both logins come from GitHub secrets, and errors print only their type so a token
 can never reach the public log. Campaign, status and money come from the owner's daily routine.

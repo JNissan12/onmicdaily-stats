@@ -28,6 +28,7 @@ td:first-child { padding-left: 0; } th:first-child { padding-left: 0; }
 a { color: inherit; }
 .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 button { font: inherit; font-weight: 600; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer; }
+button.link { padding: 0; border: 0; background: none; color: inherit; font-weight: 400; text-decoration: underline; }
 button:hover { border-color: var(--accent); }
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 </style>
@@ -39,6 +40,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       <h1>On Mic <span>Daily</span></h1>
       <button id="refresh" type="button">Actualizar</button>
     </div>
+    <p class="note" id="status" role="status"></p>
     <p class="lead">Estadísticas de nuestros clips y lo que han ganado. Meta: <b id="goal"></b> al mes.</p>
   </header>
   <section class="tiles" aria-label="Resumen">
@@ -56,7 +58,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   <section class="card"><h2>Cada clip</h2><div class="scroll"><table>
     <thead><tr><th>Clip</th><th class="text">Canal</th><th class="text">Campaña</th><th class="text">Estado</th><th>Vistas</th><th>Likes</th><th>Ganado</th></tr></thead><tbody id="clips"></tbody>
   </table></div></section>
-  <footer>Último cambio en los números: <span id="updated"></span>. YouTube e Instagram se leen solos cada 15 minutos; TikTok y el dinero, una vez al día. <a href="https://github.com/JNissan12/onmicdaily-stats/actions/workflows/refresh.yml">Leer ahora</a>.</footer>
+  <footer>Último cambio en los números: <span id="updated"></span>. YouTube e Instagram se leen al dar Actualizar; TikTok y el dinero, una vez al día. <button id="connect" class="link" type="button">Conectar este dispositivo</button></footer>
 </main>
 <script>
 const num = (x) => (Number(x) || 0).toLocaleString('es-MX');
@@ -87,22 +89,64 @@ function render(D) {
   });
 }
 // The numbers live in data.json, so the page changes in place and its link never does.
+// Clicking starts the GitHub job that reads the APIs, using a key kept only in this browser, never in the page.
+const API = 'https://api.github.com/repos/JNissan12/onmicdaily-stats';
+const KEY_NAME = 'github-key';
 const button = document.getElementById('refresh');
-async function load() {
-  button.disabled = true;
-  button.textContent = 'Actualizando…';
-  try {
-    const response = await fetch('data.json?t=' + Date.now());
-    if (!response.ok) throw new Error(response.status);
-    render(await response.json());
-    button.textContent = 'Actualizar';
-  } catch {
-    button.textContent = 'Reintentar';
+const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
+const key = () => { try { return localStorage.getItem(KEY_NAME); } catch { return null; } };
+async function github(path, token, options = {}) {
+  const response = await fetch(API + path, {...options, headers: {Authorization: 'Bearer ' + token, Accept: options.accept || 'application/vnd.github+json'}});
+  if (!response.ok) throw new Error(String(response.status));
+  return response;
+}
+async function readNow(token) {
+  const latest = async () => (await (await github('/actions/workflows/refresh.yml/runs?per_page=1', token)).json()).workflow_runs[0];
+  const before = (await latest())?.id;
+  await github('/actions/workflows/refresh.yml/dispatches', token, {method: 'POST', body: JSON.stringify({ref: 'main'})});
+  for (let check = 0; check < 60; check++) {
+    await sleep(3000);
+    const run = await latest();
+    if (run && run.id !== before && run.status === 'completed') {
+      if (run.conclusion !== 'success') throw new Error('run');
+      // Straight from GitHub, because the public page takes about a minute to catch up.
+      return (await github('/contents/data.json?ref=main', token, {accept: 'application/vnd.github.raw+json'})).json();
+    }
   }
+  throw new Error('timeout');
+}
+async function showPublished() {
+  const response = await fetch('data.json?t=' + Date.now());
+  if (!response.ok) throw new Error(String(response.status));
+  render(await response.json());
+}
+async function refresh() {
+  const token = key();
+  button.disabled = true;
+  button.textContent = 'Leyendo…';
+  try {
+    if (token) {
+      set('status', 'Leyendo YouTube e Instagram, tarda como 30 segundos.');
+      render(await readNow(token));
+      set('status', 'Leído a las ' + new Date().toLocaleTimeString('es-MX', {hour: '2-digit', minute: '2-digit'}) + '.');
+    } else {
+      await showPublished();
+      set('status', 'Última lectura guardada. Este dispositivo no está conectado para pedir una nueva.');
+    }
+  } catch (error) {
+    set('status', error.message === '401' ? 'La llave de GitHub venció o es incorrecta. Vuelve a conectar este dispositivo.' : 'No se pudo leer. Intenta otra vez.');
+  }
+  button.textContent = 'Actualizar';
   button.disabled = false;
 }
-button.addEventListener('click', load);
-load();
+button.addEventListener('click', refresh);
+document.getElementById('connect').addEventListener('click', () => {
+  const pasted = prompt('Pega tu llave de GitHub. Solo se guarda en este navegador.');
+  if (!pasted) return;
+  try { localStorage.setItem(KEY_NAME, pasted.trim()); set('status', 'Dispositivo conectado.'); }
+  catch { set('status', 'Este navegador no deja guardar la llave.'); }
+});
+showPublished().catch(() => set('status', 'No se pudieron cargar los números.'));
 </script>
 </body>
 </html>
