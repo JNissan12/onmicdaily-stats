@@ -1,30 +1,30 @@
 {
  "goal_usd": 1500,
- "updated": "01/11/2026 14:11",
+ "updated": "01/11/2026 14:15",
  "channels": [
+  {
+   "date": "2026-11-01",
+   "channel": "YouTube",
+   "posts": 1,
+   "followers": 0,
+   "views": 453,
+   "likes": 8
+  },
   {
    "date": "2026-11-01",
    "channel": "Instagram",
    "posts": 2,
-   "followers": 3,
+   "followers": 4,
    "views": 73,
    "likes": 6
   },
   {
    "date": "2026-11-01",
    "channel": "TikTok",
-   "posts": 0,
+   "posts": 1,
    "followers": 0,
    "views": 0,
    "likes": 0
-  },
-  {
-   "date": "2026-11-01",
-   "channel": "YouTube",
-   "posts": 1,
-   "followers": 0,
-   "views": 447,
-   "likes": 8
   }
  ],
  "markets": [
@@ -57,7 +57,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 447,
+   "views": 453,
    "likes": 8,
    "earned_usd": 0
   },
@@ -81,6 +81,17 @@
    "status": "Enviado",
    "views": 64,
    "likes": 4,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7703295744630951186",
+   "channel": "TikTok",
+   "title": "Malcolm Todd on why he's careful who hears a song before it's finished.",
+   "posted": "2026-11-01",
+   "campaign": "Rolling Stone",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
    "earned_usd": null
   }
  ]
