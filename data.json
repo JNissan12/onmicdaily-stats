@@ -1,13 +1,13 @@
 {
  "goal_usd": 1500,
- "updated": "01/11/2026 14:05",
+ "updated": "01/11/2026 14:11",
  "channels": [
   {
    "date": "2026-11-01",
    "channel": "Instagram",
    "posts": 2,
    "followers": 3,
-   "views": 72,
+   "views": 73,
    "likes": 6
   },
   {
@@ -23,7 +23,7 @@
    "channel": "YouTube",
    "posts": 1,
    "followers": 0,
-   "views": 445,
+   "views": 447,
    "likes": 8
   }
  ],
@@ -57,7 +57,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 445,
+   "views": 447,
    "likes": 8,
    "earned_usd": 0
   },
@@ -68,7 +68,7 @@
    "posted": "2026-11-01",
    "campaign": "Chipotle",
    "status": "Enviado",
-   "views": 8,
+   "views": 9,
    "likes": 2,
    "earned_usd": null
   },
