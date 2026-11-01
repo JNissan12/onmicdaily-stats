@@ -58,7 +58,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   <section class="card"><h2>Cada clip</h2><div class="scroll"><table>
     <thead><tr><th>Clip</th><th class="text">Canal</th><th class="text">Campaña</th><th class="text">Estado</th><th>Vistas</th><th>Likes</th><th>Ganado</th></tr></thead><tbody id="clips"></tbody>
   </table></div></section>
-  <footer>Último cambio en los números: <span id="updated"></span>. YouTube e Instagram se leen al dar Actualizar; TikTok y el dinero, una vez al día. <button id="connect" class="link" type="button">Conectar este dispositivo</button></footer>
+  <footer>Último cambio en los números: <span id="updated"></span>. YouTube e Instagram se leen al dar Actualizar; TikTok y el dinero, una vez al día. YouTube da aquí su conteo público, que puede ir horas atrás de YouTube Studio. <button id="connect" class="link" type="button">Conectar este dispositivo</button></footer>
 </main>
 <script>
 const num = (x) => (Number(x) || 0).toLocaleString('es-MX');
@@ -127,8 +127,11 @@ async function refresh() {
   try {
     if (token) {
       set('status', 'Leyendo YouTube e Instagram, tarda como 30 segundos.');
-      render(await readNow(token));
-      set('status', 'Leído a las ' + new Date().toLocaleTimeString('es-MX', {hour: '2-digit', minute: '2-digit'}) + '.');
+      const shown = document.getElementById('updated').textContent;
+      const data = await readNow(token);
+      render(data);
+      const time = new Date().toLocaleTimeString('es-MX', {hour: '2-digit', minute: '2-digit'});
+      set('status', 'Leído a las ' + time + (data.updated === shown ? '. Sin cambios: YouTube e Instagram todavía no publican números nuevos.' : '. Números nuevos.'));
     } else {
       await showPublished();
       set('status', 'Última lectura guardada. Este dispositivo no está conectado para pedir una nueva.');
