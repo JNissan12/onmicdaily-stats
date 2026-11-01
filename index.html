@@ -26,12 +26,19 @@ th, td { text-align: right; padding: 8px 10px; border-bottom: 1px solid var(--li
 th:first-child, td:first-child, .text { text-align: left; }
 td:first-child { padding-left: 0; } th:first-child { padding-left: 0; }
 a { color: inherit; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+button { font: inherit; font-weight: 600; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer; }
+button:hover { border-color: var(--accent); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 </style>
 </head>
 <body>
 <main>
   <header>
-    <h1>On Mic <span>Daily</span></h1>
+    <div class="top">
+      <h1>On Mic <span>Daily</span></h1>
+      <button id="refresh" type="button">Actualizar</button>
+    </div>
     <p class="lead">Estadísticas de nuestros clips y lo que han ganado. Meta: <b id="goal"></b> al mes.</p>
   </header>
   <section class="tiles" aria-label="Resumen">
@@ -49,9 +56,9 @@ a { color: inherit; }
   <section class="card"><h2>Cada clip</h2><div class="scroll"><table>
     <thead><tr><th>Clip</th><th class="text">Canal</th><th class="text">Campaña</th><th class="text">Estado</th><th>Vistas</th><th>Likes</th><th>Ganado</th></tr></thead><tbody id="clips"></tbody>
   </table></div></section>
-  <footer>Actualizado el <span id="updated"></span>.</footer>
+  <footer>Actualizado el <span id="updated"></span>. Los números se leen una vez al día.</footer>
 </main>
-<script id="data" type="application/json">{"goal_usd": 1500, "updated": "01/11/2026 11:51", "channels": [{"date": "2026-11-01", "channel": "YouTube", "posts": 1, "followers": 0, "views": 2, "likes": 0}, {"date": "2026-11-01", "channel": "Instagram", "posts": 0, "followers": 0, "views": 0, "likes": 0}, {"date": "2026-11-01", "channel": "TikTok", "posts": 0, "followers": 0, "views": 0, "likes": 0}], "markets": [{"date": "2026-11-01", "marketplace": "Content Rewards", "earned_usd": 0, "pending_usd": 0, "paid_usd": 0, "submitted": 1, "approved": 0, "rejected": 0}, {"date": "2026-11-01", "marketplace": "Vyro", "earned_usd": 0, "pending_usd": 0, "paid_usd": 0, "submitted": 0, "approved": 0, "rejected": 0}], "posts": [{"url": "https://www.youtube.com/shorts/MlQ-3SwZ4x8", "channel": "YouTube", "title": "A kid's very sweet answer | The World's First Podcast @WorldsFirstPod", "posted": "2026-11-01", "campaign": "World's First Podcast", "status": "Pendiente", "views": 2, "likes": 0, "earned_usd": 0}]}</script>
+<script id="data" type="application/json">{"goal_usd": 1500, "updated": "01/11/2026 11:56", "channels": [{"date": "2026-11-01", "channel": "YouTube", "posts": 1, "followers": 0, "views": 5, "likes": 0}, {"date": "2026-11-01", "channel": "Instagram", "posts": 0, "followers": 0, "views": 0, "likes": 0}, {"date": "2026-11-01", "channel": "TikTok", "posts": 0, "followers": 0, "views": 0, "likes": 0}], "markets": [{"date": "2026-11-01", "marketplace": "Content Rewards", "earned_usd": 0, "pending_usd": 0, "paid_usd": 0, "submitted": 1, "approved": 0, "rejected": 0}, {"date": "2026-11-01", "marketplace": "Vyro", "earned_usd": 0, "pending_usd": 0, "paid_usd": 0, "submitted": 0, "approved": 0, "rejected": 0}], "posts": [{"url": "https://www.youtube.com/shorts/MlQ-3SwZ4x8", "channel": "YouTube", "title": "A kid's very sweet answer | The World's First Podcast @WorldsFirstPod", "posted": "2026-11-01", "campaign": "World's First Podcast", "status": "Pendiente", "views": 5, "likes": 0, "earned_usd": 0}]}</script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const num = (x) => (Number(x) || 0).toLocaleString('es-MX');
@@ -68,6 +75,12 @@ const rows = (id, items, cells) => document.getElementById(id).replaceChildren(.
   }
   return tr;
 }));
+// The page is a static file, so this loads the newest published copy, past the browser's cache.
+document.getElementById('refresh').addEventListener('click', (event) => {
+  event.target.disabled = true;
+  event.target.textContent = 'Actualizando…';
+  location.replace(location.pathname + '?t=' + Date.now());
+});
 set('goal', usd(D.goal_usd)); set('updated', D.updated);
 set('earned', usd(sum(D.markets, 'earned_usd'))); set('pending', usd(sum(D.markets, 'pending_usd')));
 set('views', num(sum(D.channels, 'views'))); set('posts', num(sum(D.channels, 'posts')));
