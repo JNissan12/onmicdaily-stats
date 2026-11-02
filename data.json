@@ -1,19 +1,19 @@
 {
  "goal_usd": 1500,
- "updated": "02/11/2026 09:11",
+ "updated": "02/11/2026 12:37",
  "channels": [
   {
    "date": "2026-11-02",
    "channel": "YouTube",
-   "posts": 4,
+   "posts": 5,
    "followers": 1,
-   "views": 979,
+   "views": 988,
    "likes": 10
   },
   {
    "date": "2026-11-02",
    "channel": "Instagram",
-   "posts": 3,
+   "posts": 4,
    "followers": 6,
    "views": 184,
    "likes": 7
@@ -57,7 +57,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 12,
+   "views": 14,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,7 +68,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 1,
+   "views": 4,
    "likes": 0,
    "earned_usd": null
   },
@@ -90,6 +90,28 @@
    "posted": "2026-11-02",
    "campaign": "Raising Canes",
    "status": "Falló el envío",
+   "views": 3,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/EjjuxZX0lAM",
+   "channel": "YouTube",
+   "title": "Sara scared her kids out of peeing in the pool | The World's First Podcast @WorldsFirstPod",
+   "posted": "2026-11-02",
+   "campaign": "Worlds First",
+   "status": "Falló el envío",
+   "views": 1,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DfP6gC4gFcP/",
+   "channel": "Instagram",
+   "title": "A bioweapon, a site designated X01, and the DMZ title in the Modern Warfare 4 Season 01 trailer. @ca",
+   "posted": "2026-11-02",
+   "campaign": "Cod Trailer",
+   "status": "Enviado",
    "views": 0,
    "likes": 0,
    "earned_usd": null
