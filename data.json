@@ -1,13 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "01/11/2026 16:00",
+ "updated": "01/11/2026 18:23",
  "channels": [
+  {
+   "date": "2026-11-01",
+   "channel": "YouTube",
+   "posts": 2,
+   "followers": 1,
+   "views": 940,
+   "likes": 10
+  },
   {
    "date": "2026-11-01",
    "channel": "Instagram",
    "posts": 2,
    "followers": 4,
-   "views": 95,
+   "views": 126,
    "likes": 6
   },
   {
@@ -17,14 +25,6 @@
    "followers": 0,
    "views": 2,
    "likes": 0
-  },
-  {
-   "date": "2026-11-01",
-   "channel": "YouTube",
-   "posts": 1,
-   "followers": 1,
-   "views": 659,
-   "likes": 10
   }
  ],
  "markets": [
@@ -51,13 +51,24 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/ooKHtw7FrOs",
+   "channel": "YouTube",
+   "title": "Erin hits a wall at work alone | The World's First Podcast @WorldsFirstPod",
+   "posted": "2026-11-02",
+   "campaign": "Worlds First",
+   "status": "Enviado",
+   "views": 3,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/MlQ-3SwZ4x8",
    "channel": "YouTube",
    "title": "A kid's very sweet answer | The World's First Podcast @WorldsFirstPod",
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 659,
+   "views": 937,
    "likes": 10,
    "earned_usd": 0
   },
@@ -68,7 +79,7 @@
    "posted": "2026-11-01",
    "campaign": "Chipotle",
    "status": "Enviado",
-   "views": 29,
+   "views": 60,
    "likes": 2,
    "earned_usd": null
   },
