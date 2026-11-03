@@ -1,22 +1,22 @@
 {
  "goal_usd": 1500,
- "updated": "03/11/2026 05:17",
+ "updated": "03/11/2026 09:11",
  "channels": [
   {
    "date": "2026-11-03",
    "channel": "YouTube",
-   "posts": 4,
+   "posts": 5,
    "followers": 1,
-   "views": 2681,
-   "likes": 39
+   "views": 3072,
+   "likes": 45
   },
   {
    "date": "2026-11-03",
    "channel": "Instagram",
    "posts": 2,
-   "followers": 6,
-   "views": 235,
-   "likes": 6
+   "followers": 7,
+   "views": 238,
+   "likes": 7
   },
   {
    "date": "2026-11-02",
@@ -57,7 +57,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 895,
+   "views": 990,
    "likes": 14,
    "earned_usd": null
   },
@@ -68,8 +68,8 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 584,
-   "likes": 11,
+   "views": 842,
+   "likes": 17,
    "earned_usd": null
   },
   {
@@ -79,8 +79,19 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 167,
-   "likes": 2,
+   "views": 170,
+   "likes": 3,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/6Oxm9ufPxoc",
+   "channel": "YouTube",
+   "title": "Why a failure feels worse than it is | Mark Manson",
+   "posted": "2026-11-03",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
    "earned_usd": null
   },
   {
@@ -90,7 +101,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 18,
+   "views": 20,
    "likes": 0,
    "earned_usd": null
   },
@@ -156,7 +167,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 1184,
+   "views": 1220,
    "likes": 14,
    "earned_usd": 0
   },
