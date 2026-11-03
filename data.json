@@ -1,7 +1,15 @@
 {
  "goal_usd": 1500,
- "updated": "03/11/2026 00:00",
+ "updated": "03/11/2026 05:17",
  "channels": [
+  {
+   "date": "2026-11-03",
+   "channel": "YouTube",
+   "posts": 4,
+   "followers": 1,
+   "views": 2681,
+   "likes": 39
+  },
   {
    "date": "2026-11-03",
    "channel": "Instagram",
@@ -17,24 +25,16 @@
    "followers": 1,
    "views": 169,
    "likes": 13
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "YouTube",
-   "posts": 4,
-   "followers": 1,
-   "views": 1023,
-   "likes": 17
   }
  ],
  "markets": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 6,
+   "submitted": 10,
    "approved": 0,
    "rejected": 0
   },
@@ -55,24 +55,33 @@
    "channel": "YouTube",
    "title": "Would you still chase your goal if nobody ever knew? | Mark Manson",
    "posted": "2026-11-03",
-   "views": 18,
-   "likes": 3
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 895,
+   "likes": 14,
+   "earned_usd": null
   },
   {
    "url": "https://www.youtube.com/shorts/Iaei5m8QtWY",
    "channel": "YouTube",
    "title": "Elon gave SpaceX a 10% chance and did it anyway | Mark Manson",
    "posted": "2026-11-03",
-   "views": 20,
-   "likes": 3
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 584,
+   "likes": 11,
+   "earned_usd": null
   },
   {
    "url": "https://www.instagram.com/reel/DfRC2AmgKeB/",
    "channel": "Instagram",
    "title": "The 50% divorce rate stopped being true decades ago, and Mark Manson says most divorces now come fro",
    "posted": "2026-11-03",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 167,
    "likes": 2,
-   "views": 167
+   "earned_usd": null
   },
   {
    "url": "https://www.youtube.com/shorts/ooKHtw7FrOs",
@@ -81,7 +90,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 14,
+   "views": 18,
    "likes": 0,
    "earned_usd": null
   },
@@ -125,7 +134,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Falló el envío",
-   "views": 4,
+   "views": 3,
    "likes": 0,
    "earned_usd": null
   },
@@ -147,8 +156,8 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 971,
-   "likes": 11,
+   "views": 1184,
+   "likes": 14,
    "earned_usd": 0
   },
   {
