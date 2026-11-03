@@ -1,14 +1,14 @@
 {
  "goal_usd": 1500,
- "updated": "02/11/2026 21:22",
+ "updated": "03/11/2026 00:00",
  "channels": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "channel": "Instagram",
-   "posts": 4,
+   "posts": 2,
    "followers": 6,
-   "views": 185,
-   "likes": 7
+   "views": 235,
+   "likes": 6
   },
   {
    "date": "2026-11-02",
@@ -19,12 +19,12 @@
    "likes": 13
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "channel": "YouTube",
-   "posts": 5,
+   "posts": 4,
    "followers": 1,
-   "views": 996,
-   "likes": 10
+   "views": 1023,
+   "likes": 17
   }
  ],
  "markets": [
@@ -50,6 +50,30 @@
   }
  ],
  "posts": [
+  {
+   "url": "https://www.youtube.com/shorts/5m16662ihMY",
+   "channel": "YouTube",
+   "title": "Would you still chase your goal if nobody ever knew? | Mark Manson",
+   "posted": "2026-11-03",
+   "views": 18,
+   "likes": 3
+  },
+  {
+   "url": "https://www.youtube.com/shorts/Iaei5m8QtWY",
+   "channel": "YouTube",
+   "title": "Elon gave SpaceX a 10% chance and did it anyway | Mark Manson",
+   "posted": "2026-11-03",
+   "views": 20,
+   "likes": 3
+  },
+  {
+   "url": "https://www.instagram.com/reel/DfRC2AmgKeB/",
+   "channel": "Instagram",
+   "title": "The 50% divorce rate stopped being true decades ago, and Mark Manson says most divorces now come fro",
+   "posted": "2026-11-03",
+   "likes": 2,
+   "views": 167
+  },
   {
    "url": "https://www.youtube.com/shorts/ooKHtw7FrOs",
    "channel": "YouTube",
@@ -123,8 +147,8 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 970,
-   "likes": 10,
+   "views": 971,
+   "likes": 11,
    "earned_usd": 0
   },
   {
@@ -145,7 +169,7 @@
    "posted": "2026-11-01",
    "campaign": "Rolling Stone",
    "status": "Enviado",
-   "views": 67,
+   "views": 68,
    "likes": 4,
    "earned_usd": null
   },
