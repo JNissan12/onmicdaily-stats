@@ -1,21 +1,13 @@
 {
  "goal_usd": 1500,
- "updated": "03/11/2026 09:11",
+ "updated": "03/11/2026 21:45",
  "channels": [
-  {
-   "date": "2026-11-03",
-   "channel": "YouTube",
-   "posts": 5,
-   "followers": 1,
-   "views": 3072,
-   "likes": 45
-  },
   {
    "date": "2026-11-03",
    "channel": "Instagram",
    "posts": 2,
-   "followers": 7,
-   "views": 238,
+   "followers": 8,
+   "views": 240,
    "likes": 7
   },
   {
@@ -25,6 +17,14 @@
    "followers": 1,
    "views": 169,
    "likes": 13
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "YouTube",
+   "posts": 5,
+   "followers": 1,
+   "views": 3305,
+   "likes": 47
   }
  ],
  "markets": [
@@ -57,7 +57,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 990,
+   "views": 1183,
    "likes": 14,
    "earned_usd": null
   },
@@ -68,7 +68,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 842,
+   "views": 858,
    "likes": 17,
    "earned_usd": null
   },
@@ -79,7 +79,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 170,
+   "views": 171,
    "likes": 3,
    "earned_usd": null
   },
@@ -90,8 +90,8 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 0,
-   "likes": 0,
+   "views": 13,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -101,8 +101,8 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 20,
-   "likes": 0,
+   "views": 26,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -167,7 +167,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 1220,
+   "views": 1225,
    "likes": 14,
    "earned_usd": 0
   },
@@ -189,7 +189,7 @@
    "posted": "2026-11-01",
    "campaign": "Rolling Stone",
    "status": "Enviado",
-   "views": 68,
+   "views": 69,
    "likes": 4,
    "earned_usd": null
   },
