@@ -1,7 +1,15 @@
 {
  "goal_usd": 1500,
- "updated": "03/11/2026 21:45",
+ "updated": "03/11/2026 22:11",
  "channels": [
+  {
+   "date": "2026-11-03",
+   "channel": "YouTube",
+   "posts": 6,
+   "followers": 1,
+   "views": 3307,
+   "likes": 48
+  },
   {
    "date": "2026-11-03",
    "channel": "Instagram",
@@ -17,14 +25,6 @@
    "followers": 1,
    "views": 169,
    "likes": 13
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "YouTube",
-   "posts": 5,
-   "followers": 1,
-   "views": 3305,
-   "likes": 47
   }
  ],
  "markets": [
@@ -50,6 +50,17 @@
   }
  ],
  "posts": [
+  {
+   "url": "https://www.youtube.com/shorts/cjUGlgmwkpk",
+   "channel": "YouTube",
+   "title": "Is the most successful person you know mostly failing? | Mark Manson",
+   "posted": "2026-11-04",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 2,
+   "likes": 1,
+   "earned_usd": null
+  },
   {
    "url": "https://www.youtube.com/shorts/5m16662ihMY",
    "channel": "YouTube",
