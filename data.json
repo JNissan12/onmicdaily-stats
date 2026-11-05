@@ -1,21 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "04/11/2026 05:10",
+ "updated": "05/11/2026 05:09",
  "channels": [
   {
-   "date": "2026-11-04",
+   "date": "2026-11-05",
    "channel": "YouTube",
-   "posts": 7,
+   "posts": 8,
    "followers": 1,
-   "views": 3344,
+   "views": 3380,
    "likes": 50
   },
   {
-   "date": "2026-11-04",
+   "date": "2026-11-05",
    "channel": "Instagram",
    "posts": 2,
    "followers": 8,
-   "views": 240,
+   "views": 242,
    "likes": 7
   },
   {
@@ -51,13 +51,24 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/KThWvTpV174",
+   "channel": "YouTube",
+   "title": "What will make your next project fail? | Mark Manson",
+   "posted": "2026-11-05",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 4,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/cjUGlgmwkpk",
    "channel": "YouTube",
    "title": "Is the most successful person you know mostly failing? | Mark Manson",
    "posted": "2026-11-04",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 10,
+   "views": 11,
    "likes": 1,
    "earned_usd": null
   },
@@ -68,7 +79,7 @@
    "posted": "2026-11-04",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 7,
+   "views": 11,
    "likes": 2,
    "earned_usd": null
   },
@@ -79,7 +90,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1192,
+   "views": 1203,
    "likes": 14,
    "earned_usd": null
   },
@@ -90,7 +101,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 862,
+   "views": 871,
    "likes": 17,
    "earned_usd": null
   },
@@ -101,7 +112,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 171,
+   "views": 172,
    "likes": 3,
    "earned_usd": null
   },
@@ -112,7 +123,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 17,
+   "views": 19,
    "likes": 1,
    "earned_usd": null
   },
@@ -123,7 +134,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 31,
+   "views": 33,
    "likes": 1,
    "earned_usd": null
   },
@@ -189,7 +200,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 1225,
+   "views": 1228,
    "likes": 14,
    "earned_usd": 0
   },
@@ -211,7 +222,7 @@
    "posted": "2026-11-01",
    "campaign": "Rolling Stone",
    "status": "Enviado",
-   "views": 69,
+   "views": 70,
    "likes": 4,
    "earned_usd": null
   },
