@@ -1,14 +1,14 @@
 {
  "goal_usd": 1500,
- "updated": "06/11/2026 05:24",
+ "updated": "06/11/2026 09:11",
  "channels": [
   {
    "date": "2026-11-06",
    "channel": "YouTube",
-   "posts": 9,
-   "followers": 1,
-   "views": 3540,
-   "likes": 52
+   "posts": 10,
+   "followers": 3,
+   "views": 3999,
+   "likes": 61
   },
   {
    "date": "2026-11-06",
@@ -57,7 +57,18 @@
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 3,
+   "views": 4,
+   "likes": 1,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/OSXevotG4ac",
+   "channel": "YouTube",
+   "title": "Why companies stop taking risks once they win | Mark Manson",
+   "posted": "2026-11-06",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 0,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,8 +79,8 @@
    "posted": "2026-11-05",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 161,
-   "likes": 2,
+   "views": 619,
+   "likes": 9,
    "earned_usd": null
   },
   {
@@ -113,7 +124,7 @@
    "campaign": "Mark Manson",
    "status": "Enviado",
    "views": 871,
-   "likes": 17,
+   "likes": 18,
    "earned_usd": null
   },
   {
