@@ -1,20 +1,20 @@
 {
  "goal_usd": 1500,
- "updated": "05/11/2026 05:09",
+ "updated": "06/11/2026 05:24",
  "channels": [
   {
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "channel": "YouTube",
-   "posts": 8,
+   "posts": 9,
    "followers": 1,
-   "views": 3380,
-   "likes": 50
+   "views": 3540,
+   "likes": 52
   },
   {
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "channel": "Instagram",
    "posts": 2,
-   "followers": 8,
+   "followers": 9,
    "views": 242,
    "likes": 7
   },
@@ -51,14 +51,25 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/ENc-low35Gc",
+   "channel": "YouTube",
+   "title": "Andre Agassi's dad made him hit 2,500 balls a day | Mark Manson",
+   "posted": "2026-11-06",
+   "campaign": "Mark Manson",
+   "status": "Enviado",
+   "views": 3,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/KThWvTpV174",
    "channel": "YouTube",
    "title": "What will make your next project fail? | Mark Manson",
    "posted": "2026-11-05",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 4,
-   "likes": 0,
+   "views": 161,
+   "likes": 2,
    "earned_usd": null
   },
   {
