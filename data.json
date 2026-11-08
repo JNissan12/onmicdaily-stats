@@ -1,17 +1,17 @@
 {
  "goal_usd": 1500,
- "updated": "06/11/2026 12:10",
+ "updated": "08/11/2026 05:12",
  "channels": [
   {
-   "date": "2026-11-06",
+   "date": "2026-11-08",
    "channel": "YouTube",
    "posts": 10,
    "followers": 3,
-   "views": 4002,
-   "likes": 61
+   "views": 4800,
+   "likes": 68
   },
   {
-   "date": "2026-11-06",
+   "date": "2026-11-08",
    "channel": "Instagram",
    "posts": 2,
    "followers": 9,
@@ -19,34 +19,34 @@
    "likes": 7
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-08",
    "channel": "TikTok",
    "posts": 2,
    "followers": 1,
-   "views": 169,
+   "views": 179,
    "likes": 13
   }
  ],
  "markets": [
   {
-   "date": "2026-11-03",
+   "date": "2026-11-08",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 10,
+   "submitted": 17,
    "approved": 0,
    "rejected": 0
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-08",
    "marketplace": "Vyro",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 2,
-   "approved": 0,
-   "rejected": 0
+   "submitted": null,
+   "approved": null,
+   "rejected": null
   }
  ],
  "posts": [
@@ -57,8 +57,8 @@
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 5,
-   "likes": 1,
+   "views": 262,
+   "likes": 5,
    "earned_usd": null
   },
   {
@@ -79,8 +79,8 @@
    "posted": "2026-11-06",
    "campaign": null,
    "status": "Enviado",
-   "views": 0,
-   "likes": 0,
+   "views": 103,
+   "likes": 3,
    "earned_usd": null
   },
   {
@@ -90,7 +90,7 @@
    "posted": "2026-11-05",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 619,
+   "views": 1042,
    "likes": 9,
    "earned_usd": null
   },
@@ -112,7 +112,7 @@
    "posted": "2026-11-04",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 11,
+   "views": 13,
    "likes": 2,
    "earned_usd": null
   },
@@ -123,7 +123,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1203,
+   "views": 1209,
    "likes": 14,
    "earned_usd": null
   },
@@ -134,7 +134,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 873,
+   "views": 874,
    "likes": 18,
    "earned_usd": null
   },
@@ -156,7 +156,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 19,
+   "views": 20,
    "likes": 1,
    "earned_usd": null
   },
@@ -167,7 +167,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 33,
+   "views": 36,
    "likes": 1,
    "earned_usd": null
   },
@@ -233,7 +233,7 @@
    "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 1228,
+   "views": 1230,
    "likes": 14,
    "earned_usd": 0
   },
@@ -266,7 +266,7 @@
    "posted": "2026-11-01",
    "campaign": "Rolling Stone & Malcolm Todd Interviews",
    "status": "Pendiente",
-   "views": 88,
+   "views": 89,
    "likes": 0,
    "earned_usd": 0
   },
@@ -277,7 +277,7 @@
    "posted": null,
    "campaign": "World's First Podcast",
    "status": "Pendiente",
-   "views": 81,
+   "views": 90,
    "likes": null,
    "earned_usd": 0
   }
