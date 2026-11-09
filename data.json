@@ -1,14 +1,14 @@
 {
  "goal_usd": 1500,
- "updated": "08/11/2026 18:09",
+ "updated": "08/11/2026 20:08",
  "channels": [
   {
    "date": "2026-11-08",
    "channel": "YouTube",
-   "posts": 13,
+   "posts": 14,
    "followers": 3,
-   "views": 5279,
-   "likes": 73
+   "views": 5343,
+   "likes": 74
   },
   {
    "date": "2026-11-08",
@@ -57,6 +57,17 @@
    "posted": "2026-11-09",
    "campaign": "Trevor Milton",
    "status": "Sin enviar",
+   "views": 1,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/Yv2IOtXxk_I",
+   "channel": "YouTube",
+   "title": "Trevor Milton on the day his lawyer said \"you're gonna be indicted\"",
+   "posted": "2026-11-09",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
    "views": 0,
    "likes": 0,
    "earned_usd": null
@@ -68,7 +79,7 @@
    "posted": "2026-11-08",
    "campaign": null,
    "status": "Enviado",
-   "views": 12,
+   "views": 14,
    "likes": 1,
    "earned_usd": null
   },
@@ -79,8 +90,8 @@
    "posted": "2026-11-08",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 426,
-   "likes": 4,
+   "views": 483,
+   "likes": 5,
    "earned_usd": null
   },
   {
@@ -90,7 +101,7 @@
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 267,
+   "views": 269,
    "likes": 5,
    "earned_usd": null
   },
@@ -123,7 +134,7 @@
    "posted": "2026-11-05",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1042,
+   "views": 1043,
    "likes": 9,
    "earned_usd": null
   },
@@ -200,7 +211,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 37,
+   "views": 38,
    "likes": 1,
    "earned_usd": null
   },
