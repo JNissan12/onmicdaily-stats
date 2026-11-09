@@ -1,14 +1,14 @@
 {
  "goal_usd": 1500,
- "updated": "08/11/2026 05:12",
+ "updated": "08/11/2026 18:09",
  "channels": [
   {
    "date": "2026-11-08",
    "channel": "YouTube",
-   "posts": 10,
+   "posts": 13,
    "followers": 3,
-   "views": 4800,
-   "likes": 68
+   "views": 5279,
+   "likes": 73
   },
   {
    "date": "2026-11-08",
@@ -51,13 +51,46 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/suw5zlzo5XY",
+   "channel": "YouTube",
+   "title": "Trevor Milton says the truck \"rolled down a hill\" was real",
+   "posted": "2026-11-09",
+   "campaign": "Trevor Milton",
+   "status": "Sin enviar",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/GqZV2993dyc",
+   "channel": "YouTube",
+   "title": "He had to choose: his family or his $30B company",
+   "posted": "2026-11-08",
+   "campaign": null,
+   "status": "Enviado",
+   "views": 12,
+   "likes": 1,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/fw6S8IVq9NE",
+   "channel": "YouTube",
+   "title": "Not one dollar missing… they still asked for 64 years 😳",
+   "posted": "2026-11-08",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
+   "views": 426,
+   "likes": 4,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/ENc-low35Gc",
    "channel": "YouTube",
    "title": "Andre Agassi's dad made him hit 2,500 balls a day | Mark Manson",
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 262,
+   "views": 267,
    "likes": 5,
    "earned_usd": null
   },
@@ -79,7 +112,7 @@
    "posted": "2026-11-06",
    "campaign": null,
    "status": "Enviado",
-   "views": 103,
+   "views": 138,
    "likes": 3,
    "earned_usd": null
   },
@@ -167,7 +200,7 @@
    "posted": "2026-11-02",
    "campaign": "Worlds First",
    "status": "Enviado",
-   "views": 36,
+   "views": 37,
    "likes": 1,
    "earned_usd": null
   },
