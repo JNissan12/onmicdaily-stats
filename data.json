@@ -1,17 +1,17 @@
 {
  "goal_usd": 1500,
- "updated": "08/11/2026 20:08",
+ "updated": "09/11/2026 05:14",
  "channels": [
   {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "channel": "YouTube",
    "posts": 14,
    "followers": 3,
-   "views": 5343,
-   "likes": 74
+   "views": 5486,
+   "likes": 75
   },
   {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "channel": "Instagram",
    "posts": 2,
    "followers": 9,
@@ -19,27 +19,27 @@
    "likes": 7
   },
   {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "channel": "TikTok",
    "posts": 2,
    "followers": 1,
-   "views": 179,
+   "views": null,
    "likes": 13
   }
  ],
  "markets": [
   {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 17,
+   "submitted": 22,
    "approved": 0,
    "rejected": 0
   },
   {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "marketplace": "Vyro",
    "earned_usd": 0,
    "pending_usd": 0,
@@ -57,7 +57,7 @@
    "posted": "2026-11-09",
    "campaign": "Trevor Milton",
    "status": "Sin enviar",
-   "views": 1,
+   "views": 3,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,8 +68,8 @@
    "posted": "2026-11-09",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 0,
-   "likes": 0,
+   "views": 5,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -79,7 +79,7 @@
    "posted": "2026-11-08",
    "campaign": null,
    "status": "Enviado",
-   "views": 14,
+   "views": 17,
    "likes": 1,
    "earned_usd": null
   },
@@ -90,7 +90,7 @@
    "posted": "2026-11-08",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 483,
+   "views": 614,
    "likes": 5,
    "earned_usd": null
   },
@@ -134,7 +134,7 @@
    "posted": "2026-11-05",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1043,
+   "views": 1045,
    "likes": 9,
    "earned_usd": null
   },
