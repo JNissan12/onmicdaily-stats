@@ -1,21 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "09/11/2026 20:14",
+ "updated": "09/11/2026 21:10",
  "channels": [
   {
    "date": "2026-11-09",
    "channel": "YouTube",
    "posts": 16,
    "followers": 3,
-   "views": 5507,
+   "views": 5508,
    "likes": 76
   },
   {
    "date": "2026-11-09",
    "channel": "Instagram",
-   "posts": 3,
+   "posts": 4,
    "followers": 9,
-   "views": 243,
+   "views": 407,
    "likes": 7
   },
   {
@@ -57,7 +57,7 @@
    "posted": "2026-11-10",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "earned_usd": null
   },
@@ -65,6 +65,17 @@
    "url": "https://www.instagram.com/reel/DfizPlVuzIa/",
    "channel": "Instagram",
    "title": "Trevor Milton says his mom was dying of cancer when their insurance company dropped them and wouldn'",
+   "posted": "2026-11-10",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
+   "views": 164,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dfi50hAR48h/",
+   "channel": "Instagram",
+   "title": "Trevor Milton says a doctor put the wrong person's blood plasma into his wife during a procedure, an",
    "posted": "2026-11-10",
    "campaign": "Trevor Milton",
    "status": "Enviado",
