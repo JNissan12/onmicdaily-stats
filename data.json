@@ -1,21 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "09/11/2026 05:14",
+ "updated": "09/11/2026 20:14",
  "channels": [
   {
    "date": "2026-11-09",
    "channel": "YouTube",
-   "posts": 14,
+   "posts": 16,
    "followers": 3,
-   "views": 5486,
-   "likes": 75
+   "views": 5507,
+   "likes": 76
   },
   {
    "date": "2026-11-09",
    "channel": "Instagram",
-   "posts": 2,
+   "posts": 3,
    "followers": 9,
-   "views": 242,
+   "views": 243,
    "likes": 7
   },
   {
@@ -51,13 +51,35 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/CuJR7xSwSPg",
+   "channel": "YouTube",
+   "title": "From milking cows to a billion-dollar company 💪",
+   "posted": "2026-11-10",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DfizPlVuzIa/",
+   "channel": "Instagram",
+   "title": "Trevor Milton says his mom was dying of cancer when their insurance company dropped them and wouldn'",
+   "posted": "2026-11-10",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/suw5zlzo5XY",
    "channel": "YouTube",
    "title": "Trevor Milton says the truck \"rolled down a hill\" was real",
    "posted": "2026-11-09",
    "campaign": "Trevor Milton",
    "status": "Sin enviar",
-   "views": 3,
+   "views": 5,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,7 +90,18 @@
    "posted": "2026-11-09",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 5,
+   "views": 8,
+   "likes": 1,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/HUB8OMo_Pos",
+   "channel": "YouTube",
+   "title": "This billionaire once survived on a handful of cereal 😳",
+   "posted": "2026-11-09",
+   "campaign": "Trevor Milton",
+   "status": "Enviado",
+   "views": 11,
    "likes": 1,
    "earned_usd": null
   },
@@ -79,7 +112,7 @@
    "posted": "2026-11-08",
    "campaign": null,
    "status": "Enviado",
-   "views": 17,
+   "views": 20,
    "likes": 1,
    "earned_usd": null
   },
@@ -90,7 +123,7 @@
    "posted": "2026-11-08",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 614,
+   "views": 616,
    "likes": 5,
    "earned_usd": null
   },
@@ -299,7 +332,7 @@
    "posted": "2026-11-01",
    "campaign": "Rolling Stone",
    "status": "Enviado",
-   "views": 70,
+   "views": 71,
    "likes": 4,
    "earned_usd": null
   },
