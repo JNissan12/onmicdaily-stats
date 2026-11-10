@@ -1,22 +1,22 @@
 {
  "goal_usd": 1500,
- "updated": "10/11/2026 05:19",
+ "updated": "10/11/2026 12:18",
  "channels": [
   {
    "date": "2026-11-10",
    "channel": "YouTube",
    "posts": 16,
    "followers": 3,
-   "views": 5510,
+   "views": 5512,
    "likes": 76
   },
   {
    "date": "2026-11-10",
    "channel": "Instagram",
-   "posts": 4,
+   "posts": 5,
    "followers": 9,
-   "views": 582,
-   "likes": 7
+   "views": 585,
+   "likes": 8
   },
   {
    "date": "2026-11-10",
@@ -57,7 +57,7 @@
    "posted": "2026-11-10",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 1,
+   "views": 3,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,8 +68,8 @@
    "posted": "2026-11-10",
    "campaign": "Trevor Milton",
    "status": "Enviado",
-   "views": 167,
-   "likes": 0,
+   "views": 170,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -80,6 +80,17 @@
    "campaign": "Trevor Milton",
    "status": "Enviado",
    "views": 172,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dfkg0F9i98j/",
+   "channel": "Instagram",
+   "title": "TJR needs $10K at a Las Vegas blackjack table, doubles down on 11 and hits a 10 for a +$20K hand. Wo",
+   "posted": "2026-11-10",
+   "campaign": "Tjr",
+   "status": "Enviado",
+   "views": 0,
    "likes": 0,
    "earned_usd": null
   },
