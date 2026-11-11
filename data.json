@@ -1,45 +1,45 @@
 {
  "goal_usd": 1500,
- "updated": "10/11/2026 12:18",
+ "updated": "11/11/2026 05:12",
  "channels": [
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "channel": "YouTube",
    "posts": 16,
    "followers": 3,
-   "views": 5512,
+   "views": 5513,
    "likes": 76
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "channel": "Instagram",
    "posts": 5,
    "followers": 9,
-   "views": 585,
-   "likes": 8
+   "views": 594,
+   "likes": 9
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "channel": "TikTok",
-   "posts": 2,
+   "posts": 3,
    "followers": 1,
-   "views": null,
-   "likes": 13
+   "views": 356,
+   "likes": 15
   }
  ],
  "markets": [
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 26,
+   "submitted": 28,
    "approved": 0,
    "rejected": 0
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "marketplace": "Vyro",
    "earned_usd": 0,
    "pending_usd": 0,
@@ -90,8 +90,8 @@
    "posted": "2026-11-10",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 0,
-   "likes": 0,
+   "views": 9,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -134,7 +134,7 @@
    "posted": "2026-11-08",
    "campaign": null,
    "status": "Enviado",
-   "views": 21,
+   "views": 22,
    "likes": 1,
    "earned_usd": null
   },
@@ -379,6 +379,17 @@
    "views": 90,
    "likes": null,
    "earned_usd": 0
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7706606836782337300",
+   "channel": "TikTok",
+   "title": null,
+   "posted": null,
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 176,
+   "likes": null,
+   "earned_usd": null
   }
  ]
 }
