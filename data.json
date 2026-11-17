@@ -1,17 +1,17 @@
 {
  "goal_usd": 1500,
- "updated": "16/11/2026 22:11",
+ "updated": "17/11/2026 05:12",
  "channels": [
   {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "channel": "YouTube",
    "posts": 19,
    "followers": 3,
-   "views": 5523,
-   "likes": 77
+   "views": 5531,
+   "likes": 78
   },
   {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "channel": "Instagram",
    "posts": 7,
    "followers": 10,
@@ -19,22 +19,22 @@
    "likes": 9
   },
   {
-   "date": "2026-11-13",
+   "date": "2026-11-17",
    "channel": "TikTok",
-   "posts": 4,
+   "posts": 6,
    "followers": 1,
-   "views": 572,
-   "likes": 23
+   "views": 2195,
+   "likes": 61
   }
  ],
  "markets": [
   {
-   "date": "2026-11-13",
+   "date": "2026-11-17",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
    "paid_usd": 0,
-   "submitted": 30,
+   "submitted": 36,
    "approved": 1,
    "rejected": 1
   },
@@ -57,7 +57,7 @@
    "posted": "2026-11-17",
    "campaign": null,
    "status": "Enviado",
-   "views": 1,
+   "views": 5,
    "likes": 1,
    "earned_usd": null
   },
@@ -90,8 +90,8 @@
    "posted": "2026-11-17",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 1,
-   "likes": 0,
+   "views": 5,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -442,7 +442,7 @@
    "posted": null,
    "campaign": "TJR $50,000 Clipping Campaign",
    "status": "Pendiente",
-   "views": 227,
+   "views": 785,
    "likes": null,
    "earned_usd": null
   },
@@ -453,7 +453,29 @@
    "posted": null,
    "campaign": "TJR $50,000 Clipping Campaign",
    "status": "Pendiente",
-   "views": 165,
+   "views": 1116,
+   "likes": null,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7708987324260044053",
+   "channel": "TikTok",
+   "title": null,
+   "posted": null,
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 50,
+   "likes": null,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7708926721734528276",
+   "channel": "TikTok",
+   "title": null,
+   "posted": null,
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 64,
    "likes": null,
    "earned_usd": null
   }
