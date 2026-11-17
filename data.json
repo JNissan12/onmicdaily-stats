@@ -1,14 +1,14 @@
 {
  "goal_usd": 1500,
- "updated": "16/11/2026 21:09",
+ "updated": "16/11/2026 22:11",
  "channels": [
   {
    "date": "2026-11-16",
    "channel": "YouTube",
    "posts": 19,
    "followers": 3,
-   "views": 5521,
-   "likes": 76
+   "views": 5523,
+   "likes": 77
   },
   {
    "date": "2026-11-16",
@@ -57,8 +57,8 @@
    "posted": "2026-11-17",
    "campaign": null,
    "status": "Enviado",
-   "views": 0,
-   "likes": 0,
+   "views": 1,
+   "likes": 1,
    "earned_usd": null
   },
   {
@@ -101,7 +101,7 @@
    "posted": "2026-11-12",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 6,
+   "views": 7,
    "likes": 0,
    "earned_usd": null
   },
