@@ -1,21 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "16/11/2026 18:16",
+ "updated": "16/11/2026 21:09",
  "channels": [
   {
    "date": "2026-11-16",
    "channel": "YouTube",
-   "posts": 18,
+   "posts": 19,
    "followers": 3,
-   "views": 5520,
+   "views": 5521,
    "likes": 76
   },
   {
    "date": "2026-11-16",
    "channel": "Instagram",
-   "posts": 6,
+   "posts": 7,
    "followers": 10,
-   "views": 596,
+   "views": 598,
    "likes": 9
   },
   {
@@ -69,6 +69,28 @@
    "campaign": null,
    "status": "Enviado",
    "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df00wPxqmUB/",
+   "channel": "Instagram",
+   "title": "TJR says a $56,000 red day is when most traders do the worst thing: chase it with more trades, more ",
+   "posted": "2026-11-17",
+   "campaign": "Tjr",
+   "status": "Enviado",
+   "views": 2,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/Xod2P-eCfNM",
+   "channel": "YouTube",
+   "title": "Lost $52K today. That loss helps me win. 📈",
+   "posted": "2026-11-17",
+   "campaign": "Tjr",
+   "status": "Enviado",
+   "views": 1,
    "likes": 0,
    "earned_usd": null
   },
