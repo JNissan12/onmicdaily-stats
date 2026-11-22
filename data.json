@@ -1,17 +1,17 @@
 {
  "goal_usd": 1500,
- "updated": "18/11/2026 05:11",
+ "updated": "22/11/2026 05:18",
  "channels": [
   {
-   "date": "2026-11-18",
+   "date": "2026-11-22",
    "channel": "YouTube",
-   "posts": 18,
+   "posts": 19,
    "followers": 3,
-   "views": 5533,
+   "views": 5537,
    "likes": 78
   },
   {
-   "date": "2026-11-18",
+   "date": "2026-11-22",
    "channel": "Instagram",
    "posts": 7,
    "followers": 11,
@@ -19,17 +19,17 @@
    "likes": 9
   },
   {
-   "date": "2026-11-18",
+   "date": "2026-11-22",
    "channel": "TikTok",
    "posts": 6,
-   "followers": 1,
-   "views": 2326,
-   "likes": 72
+   "followers": 2,
+   "views": 2850,
+   "likes": 109
   }
  ],
  "markets": [
   {
-   "date": "2026-11-18",
+   "date": "2026-11-22",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": 0,
@@ -39,7 +39,7 @@
    "rejected": 1
   },
   {
-   "date": "2026-11-11",
+   "date": "2026-11-22",
    "marketplace": "Vyro",
    "earned_usd": 0,
    "pending_usd": 0,
@@ -90,7 +90,7 @@
    "posted": "2026-11-17",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 5,
+   "views": 7,
    "likes": 1,
    "earned_usd": null
   },
@@ -211,7 +211,7 @@
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 269,
+   "views": 270,
    "likes": 5,
    "earned_usd": null
   },
@@ -277,7 +277,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1209,
+   "views": 1210,
    "likes": 14,
    "earned_usd": null
   },
@@ -442,7 +442,7 @@
    "posted": null,
    "campaign": "TJR $50,000 Clipping Campaign",
    "status": "Pendiente",
-   "views": 785,
+   "views": 787,
    "likes": null,
    "earned_usd": null
   },
@@ -475,7 +475,7 @@
    "posted": null,
    "campaign": "TJR $50,000 Clipping Campaign",
    "status": "Pendiente",
-   "views": 195,
+   "views": 717,
    "likes": null,
    "earned_usd": null
   }
