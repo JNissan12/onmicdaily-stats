@@ -1,6 +1,6 @@
 {
  "goal_usd": 1500,
- "updated": "22/11/2026 05:18",
+ "updated": "22/11/2026 05:21",
  "channels": [
   {
    "date": "2026-11-22",
@@ -95,6 +95,28 @@
    "earned_usd": null
   },
   {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7708987324260044053",
+   "channel": "TikTok",
+   "title": "TJR lost $50,000 and then $100,000 in Las Vegas, and his answer is that he's due. Would you ever go ",
+   "posted": "2026-11-16",
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 50,
+   "likes": null,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7708926721734528276",
+   "channel": "TikTok",
+   "title": "TJR made $96,000 on one trade and lost $56,000 the next day, and he explains why he's not panicking.",
+   "posted": "2026-11-16",
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 717,
+   "likes": null,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/dBvpIj_RkwA",
    "channel": "YouTube",
    "title": "He tested a $200K Maybach off-road before buying it 🚗",
@@ -103,6 +125,17 @@
    "status": "Enviado",
    "views": 8,
    "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7707394997380713780",
+   "channel": "TikTok",
+   "title": "TJR surprises his brother with a Maybach as a late birthday gift, and his reaction is priceless. Wha",
+   "posted": "2026-11-12",
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 1116,
+   "likes": null,
    "earned_usd": null
   },
   {
@@ -147,6 +180,17 @@
    "status": "Enviado",
    "views": 9,
    "likes": 1,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7706606836782337300",
+   "channel": "TikTok",
+   "title": "TJR tests the bounce mode on a Maybach at the dealership and jokes that every car there beats his ow",
+   "posted": "2026-11-10",
+   "campaign": "TJR $50,000 Clipping Campaign",
+   "status": "Pendiente",
+   "views": 787,
+   "likes": null,
    "earned_usd": null
   },
   {
@@ -427,57 +471,13 @@
   {
    "url": "https://www.tiktok.com/@onmicdaily/video/7703359703773908245",
    "channel": "TikTok",
-   "title": null,
-   "posted": null,
+   "title": "Sara is not afraid of anything or anybody, except waking the person next to her. Erin and Sara on Th",
+   "posted": "2026-11-01",
    "campaign": "World's First Podcast",
    "status": "Pendiente",
    "views": 91,
    "likes": null,
    "earned_usd": 0
-  },
-  {
-   "url": "https://www.tiktok.com/@onmicdaily/video/7706606836782337300",
-   "channel": "TikTok",
-   "title": null,
-   "posted": null,
-   "campaign": "TJR $50,000 Clipping Campaign",
-   "status": "Pendiente",
-   "views": 787,
-   "likes": null,
-   "earned_usd": null
-  },
-  {
-   "url": "https://www.tiktok.com/@onmicdaily/video/7707394997380713780",
-   "channel": "TikTok",
-   "title": null,
-   "posted": null,
-   "campaign": "TJR $50,000 Clipping Campaign",
-   "status": "Pendiente",
-   "views": 1116,
-   "likes": null,
-   "earned_usd": null
-  },
-  {
-   "url": "https://www.tiktok.com/@onmicdaily/video/7708987324260044053",
-   "channel": "TikTok",
-   "title": null,
-   "posted": null,
-   "campaign": "TJR $50,000 Clipping Campaign",
-   "status": "Pendiente",
-   "views": 50,
-   "likes": null,
-   "earned_usd": null
-  },
-  {
-   "url": "https://www.tiktok.com/@onmicdaily/video/7708926721734528276",
-   "channel": "TikTok",
-   "title": null,
-   "posted": null,
-   "campaign": "TJR $50,000 Clipping Campaign",
-   "status": "Pendiente",
-   "views": 717,
-   "likes": null,
-   "earned_usd": null
   }
  ]
 }
