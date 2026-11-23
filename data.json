@@ -1,13 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "22/11/2026 18:22",
+ "updated": "22/11/2026 23:10",
  "channels": [
   {
    "date": "2026-11-22",
+   "channel": "YouTube",
+   "posts": 19,
+   "followers": 3,
+   "views": 5538,
+   "likes": 78
+  },
+  {
+   "date": "2026-11-22",
    "channel": "Instagram",
-   "posts": 7,
+   "posts": 9,
    "followers": 11,
-   "views": 598,
+   "views": 717,
    "likes": 9
   },
   {
@@ -17,14 +25,6 @@
    "followers": 2,
    "views": 2850,
    "likes": 109
-  },
-  {
-   "date": "2026-11-22",
-   "channel": "YouTube",
-   "posts": 19,
-   "followers": 3,
-   "views": 5537,
-   "likes": 78
   }
  ],
  "markets": [
@@ -50,6 +50,39 @@
   }
  ],
  "posts": [
+  {
+   "url": "https://www.youtube.com/shorts/mRxrYdmWvck",
+   "channel": "YouTube",
+   "title": "Why the internet before 2022 is like \"pure steel\" 🤯",
+   "posted": "2026-11-23",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgEl5o0qNqB/",
+   "channel": "Instagram",
+   "title": "A VC telling founders not to chase a billion-dollar valuation: Willie Litvack of Press On Ventures s",
+   "posted": "2026-11-23",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgEP6RKqQ1I/",
+   "channel": "Instagram",
+   "title": "Women doing IVF after 40 often think they're the only ones using an egg donor. Cofertility CEO Laure",
+   "posted": "2026-11-23",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 119,
+   "likes": 0,
+   "earned_usd": null
+  },
   {
    "url": "https://www.youtube.com/shorts/hLgxFs7qgL0",
    "channel": "YouTube",
@@ -90,7 +123,7 @@
    "posted": "2026-11-17",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 7,
+   "views": 8,
    "likes": 1,
    "earned_usd": null
   },
