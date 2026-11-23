@@ -1,15 +1,7 @@
 {
  "goal_usd": 1500,
- "updated": "22/11/2026 05:21",
+ "updated": "22/11/2026 18:22",
  "channels": [
-  {
-   "date": "2026-11-22",
-   "channel": "YouTube",
-   "posts": 19,
-   "followers": 3,
-   "views": 5537,
-   "likes": 78
-  },
   {
    "date": "2026-11-22",
    "channel": "Instagram",
@@ -25,6 +17,14 @@
    "followers": 2,
    "views": 2850,
    "likes": 109
+  },
+  {
+   "date": "2026-11-22",
+   "channel": "YouTube",
+   "posts": 19,
+   "followers": 3,
+   "views": 5537,
+   "likes": 78
   }
  ],
  "markets": [
