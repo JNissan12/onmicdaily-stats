@@ -1,19 +1,19 @@
 {
  "goal_usd": 1500,
- "updated": "23/11/2026 05:12",
+ "updated": "26/11/2026 22:48",
  "channels": [
   {
-   "date": "2026-11-23",
+   "date": "2026-11-26",
    "channel": "YouTube",
-   "posts": 20,
+   "posts": 21,
    "followers": 3,
-   "views": 5538,
+   "views": 5539,
    "likes": 78
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-11-26",
    "channel": "Instagram",
-   "posts": 9,
+   "posts": 11,
    "followers": 11,
    "views": 855,
    "likes": 9
@@ -50,6 +50,39 @@
   }
  ],
  "posts": [
+  {
+   "url": "https://www.youtube.com/shorts/0MHR8XZfo_0",
+   "channel": "YouTube",
+   "title": "\"Starting a SaaS company today? You'll have a bad time\" 🤔",
+   "posted": "2026-11-27",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgO1mnVReNM/",
+   "channel": "Instagram",
+   "title": "Press On Ventures partner Willie Litvack says the enterprise AI trade is mostly priced in, and the n",
+   "posted": "2026-11-27",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgO1QOOxF71/",
+   "channel": "Instagram",
+   "title": "Surrogacy headlines make it sound like it happens all the time, but Cofertility CEO Lauren says her ",
+   "posted": "2026-11-27",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
   {
    "url": "https://www.youtube.com/shorts/mRxrYdmWvck",
    "channel": "YouTube",
@@ -376,7 +409,7 @@
    "posted": "2026-11-03",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 1210,
+   "views": 1211,
    "likes": 14,
    "earned_usd": null
   },
