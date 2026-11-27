@@ -1,40 +1,40 @@
 {
  "goal_usd": 1500,
- "updated": "26/11/2026 22:48",
+ "updated": "27/11/2026 05:15",
  "channels": [
   {
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "channel": "YouTube",
    "posts": 21,
    "followers": 3,
-   "views": 5539,
+   "views": 5547,
    "likes": 78
   },
   {
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "channel": "Instagram",
    "posts": 11,
    "followers": 11,
-   "views": 855,
+   "views": 1027,
    "likes": 9
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-11-27",
    "channel": "TikTok",
-   "posts": 8,
-   "followers": 2,
-   "views": 3818,
-   "likes": 129
+   "posts": 10,
+   "followers": 3,
+   "views": null,
+   "likes": 153
   }
  ],
  "markets": [
   {
-   "date": "2026-11-23",
+   "date": "2026-11-27",
    "marketplace": "Content Rewards",
    "earned_usd": 0,
    "pending_usd": null,
    "paid_usd": null,
-   "submitted": 41,
+   "submitted": 46,
    "approved": 1,
    "rejected": 1
   },
@@ -57,7 +57,7 @@
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 0,
+   "views": 4,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,7 +68,7 @@
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 0,
+   "views": 52,
    "likes": 0,
    "earned_usd": null
   },
@@ -79,8 +79,30 @@
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 0,
+   "views": 120,
    "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7712707949503745300",
+   "channel": "TikTok",
+   "title": "Press On Ventures' Willie Litvack says you don't need eight engineers to build your MVP anymore, bec",
+   "posted": "2026-11-26",
+   "campaign": "First Press Podcast",
+   "status": "Pendiente",
+   "views": 247,
+   "likes": null,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.tiktok.com/@onmicdaily/video/7712706851191754005",
+   "channel": "TikTok",
+   "title": "Freezing your eggs costs $15,000 to $20,000 in the US, says Cofertility CEO Lauren. The people who'd",
+   "posted": "2026-11-26",
+   "campaign": "First Press Podcast",
+   "status": "Pendiente",
+   "views": 519,
+   "likes": null,
    "earned_usd": null
   },
   {
@@ -90,7 +112,7 @@
    "posted": "2026-11-23",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "earned_usd": null
   },
@@ -123,7 +145,7 @@
    "posted": "2026-11-22",
    "campaign": "First Press Podcast",
    "status": "Pendiente",
-   "views": 423,
+   "views": 513,
    "likes": null,
    "earned_usd": null
   },
@@ -134,7 +156,7 @@
    "posted": "2026-11-22",
    "campaign": "First Press Podcast",
    "status": "Pendiente",
-   "views": 545,
+   "views": 548,
    "likes": null,
    "earned_usd": null
   },
@@ -145,7 +167,7 @@
    "posted": "2026-11-17",
    "campaign": null,
    "status": "Enviado",
-   "views": 6,
+   "views": 7,
    "likes": 1,
    "earned_usd": null
   },
@@ -178,7 +200,7 @@
    "posted": "2026-11-17",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 8,
+   "views": 9,
    "likes": 1,
    "earned_usd": null
   },
@@ -211,7 +233,7 @@
    "posted": "2026-11-12",
    "campaign": "Tjr",
    "status": "Enviado",
-   "views": 8,
+   "views": 9,
    "likes": 0,
    "earned_usd": null
   },
@@ -277,7 +299,7 @@
    "posted": "2026-11-10",
    "campaign": "TJR $50,000 Clipping Campaign",
    "status": "Pendiente",
-   "views": 787,
+   "views": 788,
    "likes": null,
    "earned_usd": null
   },
