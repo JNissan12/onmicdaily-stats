@@ -1,21 +1,21 @@
 {
  "goal_usd": 1500,
- "updated": "27/11/2026 05:15",
+ "updated": "27/11/2026 20:21",
  "channels": [
   {
    "date": "2026-11-27",
    "channel": "YouTube",
-   "posts": 21,
+   "posts": 23,
    "followers": 3,
-   "views": 5547,
+   "views": 5571,
    "likes": 78
   },
   {
    "date": "2026-11-27",
    "channel": "Instagram",
-   "posts": 11,
+   "posts": 13,
    "followers": 11,
-   "views": 1027,
+   "views": 1029,
    "likes": 9
   },
   {
@@ -51,13 +51,57 @@
  ],
  "posts": [
   {
+   "url": "https://www.youtube.com/shorts/yfcuNkRpAjI",
+   "channel": "YouTube",
+   "title": "\"Starting a company used to be a nightmare. Here's what changed 🤔\"",
+   "posted": "2026-11-28",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.youtube.com/shorts/HChU9nzYzGo",
+   "channel": "YouTube",
+   "title": "\"Small VC fund? An AI agent can be your recruiting team 🤖\"",
+   "posted": "2026-11-28",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgRJmfHxFzJ/",
+   "channel": "Instagram",
+   "title": "Cofertility CEO Lauren cites a study finding that three in five Gen Z women are already worried abou",
+   "posted": "2026-11-28",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
+   "url": "https://www.instagram.com/reel/DgRJSg3x7tH/",
+   "channel": "Instagram",
+   "title": "Press On Ventures partner Willie Litvack says retrofitting AI into an existing company is extremely ",
+   "posted": "2026-11-28",
+   "campaign": "First Press",
+   "status": "Enviado",
+   "views": 0,
+   "likes": 0,
+   "earned_usd": null
+  },
+  {
    "url": "https://www.youtube.com/shorts/0MHR8XZfo_0",
    "channel": "YouTube",
    "title": "\"Starting a SaaS company today? You'll have a bad time\" 🤔",
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 4,
+   "views": 27,
    "likes": 0,
    "earned_usd": null
   },
@@ -68,7 +112,7 @@
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 52,
+   "views": 53,
    "likes": 0,
    "earned_usd": null
   },
@@ -79,7 +123,7 @@
    "posted": "2026-11-27",
    "campaign": "First Press",
    "status": "Enviado",
-   "views": 120,
+   "views": 121,
    "likes": 0,
    "earned_usd": null
   },
@@ -365,7 +409,7 @@
    "posted": "2026-11-06",
    "campaign": "Mark Manson",
    "status": "Enviado",
-   "views": 270,
+   "views": 271,
    "likes": 5,
    "earned_usd": null
   },
